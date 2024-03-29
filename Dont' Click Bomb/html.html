@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
+    <h1>Please choose the difficult</h1>
+    <div class="buttons">
+        <button class="easyBtn">Easy</button>
+        <button class="hardBtn">Hard</button>
+    </div>
+
     <div class = 'container'>
         <div class="box"></div>
         <div class="box"></div>
@@ -111,10 +117,14 @@
         <div class="box"></div>
     </div>
 
-    <div class="buttons">
-        <button class="easyBtn">Easy</button>
-        <button>Hard</button>
+    <p class="gameState"></p>
+    <p class="clickedBoxMsg">This box is already clicked!Please click box that is not black</p>
+
+    <div class="gameOverContainer">
+        <p class="gameOverParagraph"></p>
+        <button class="tryAgainBtn">TryAgain</button>
     </div>
+    
 
     <script src="script.js"></script>
 </body>

@@ -3,25 +3,44 @@
 }
 
 .container{
-    display: inline-grid;
-    grid-template-columns: repeat(10,45px);
-    grid-template-rows: repeat(10, 45px);
+    display:none;
     border:1px solid black;
     margin-bottom: 30px;
+}
 
+.hard{
+    grid-template-columns: repeat(10,45px);
+    grid-template-rows: repeat(10, 45px);
+}
 
+.easy{
+    grid-template-columns: repeat(10,45px);
+    grid-template-rows: repeat(5, 45px);
 }
 
 .box {
     border: 1px solid black;
+    display: none;
 }
 
 
-.buttons{
+/* .buttons{
     width: calc(10*45px);
     margin: auto;
-}
+} */
 
 .clicked{
     background-color: black;
+}
+
+.gameState{
+    display: none;
+}
+
+.gameOverContainer{
+    display:none
+}
+
+.clickedBoxMsg{
+    display:none;
 }
